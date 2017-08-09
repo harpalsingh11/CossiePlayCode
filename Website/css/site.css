@@ -1,0 +1,183 @@
+.menuitem{
+	width:400px;
+	height:300px;
+}
+
+#itemstable  img{
+	width:50%;
+}
+
+#logo{
+	align:center;
+	width:50%;
+}
+
+#container{
+}
+
+#headdiv{
+	background:#7FB3D5;
+	padding:10px;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#businesshours{
+	background:#F8C471;
+}
+
+#businesshours tr{
+	 border: 1px solid #ddd;
+}
+
+#itemstable{
+	width:100%;
+	text-align:center;
+}
+
+#menuheading{
+	text-align:center;
+	font-size:18px;
+}
+
+p{
+	text-align:center;
+}
+
+html,
+body {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.25;
+  margin:0;
+  height:100%;
+  background:#F2F3F4;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th{
+	font-weight:bold;
+}
+
+table th,
+table td {
+  padding: .500em;
+  text-align: center;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+   text-align:center;
+}
+
+#content {
+   padding-bottom:40px;
+}
+
+#footer {
+    width:100%;
+	background:#7FB3D5;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	position: fixed;
+    bottom: 0;
+}
+  
+@media screen and (max-width: 978px) {
+  table tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+   table th {
+    display: block;
+  }
+  
+  table td {
+    display: block;
+  }
+  
+  a{
+	  display:block;
+  }
+}
+@media screen and (max-width: 500) {
+  a{
+	  display:block;
+  }
+}
+
+.navbar{
+	display:inline;
+	padding:5px;
+	font-size:14px;
+}
+
+#navbardiv{
+	color:white;
+	margin-bottom:5px;
+	background:#000000;
+	padding:5px;
+	width: 100%;
+	text-align:center;
+}
+
+.navbardiv{
+	color:white;
+	margin-bottom:5px;
+	background:#000000;
+	padding:5px;
+	width: 100%;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:visited{
+	color:white;	
+}
+
+a:link{
+	color:white;
+}
+
+a:hover{
+	color:yellow;
+	font-size:105%;
+}
+
+.galleryItemLabel{
+	font-weight:bold;
+	color:green;
+}
+
+.cpTableHeading{
+	color: white;
+    background: darkred;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbarVertical{
+	display:block;
+}
+
+#cpPara > a {
+	color:blue;
+}
+
+.textDiv{
+	line-height:2.5;
+}
